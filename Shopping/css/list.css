@@ -1,0 +1,121 @@
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    height: 47px;
+    line-height: 47px;
+}
+
+.sk_list ul li a {
+
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+    line-height: 47px;
+}
+
+.sk_con ul li a {
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+
+    content: "\e91e";
+    font-family: "icomoon";
+}
+
+.sk_container .sk_bd ul li {
+    float: left;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
+
+.sk_container .sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li img {
+    width: 290px;
+    height: 288px;
+}
+
+.sk_bd ul li h4 {
+    color: #333;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.sk_bd ul li .price {
+    padding: 0 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #c81523;
+}
+
+.sk_bd ul li .price span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li .detail {
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.sk_bd ul li .detail span {
+    color: #c81523;
+}
+
+.sk_bd ul li .detail .progress {
+    display: inline-block;
+    width: 140px;
+    height: 12px;
+    border: 2px solid #c81523;
+    border-radius: 6px;
+}
+
+.sk_bd ul li .detail .progress .red {
+    width: 100px;
+    height: 8px;
+    background-color: #c81523;
+}
+
+.sk_bd ul li button {
+    margin-top: 12px;
+    width: 290px;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    background-color: #c81523;
+}
